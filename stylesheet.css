@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(128, 75, 14);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 75px; 
+  cursor: pointer;
+  float:left;
+}
+
+.txtlogo {
+  float: left;
+  color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+  font-family: verdana;
+  font-weight: normal;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -50px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+} 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.postimg.cc/gcTgz4cL/photo-2021-12-03-08-23-32.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center; 
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  padding-bottom: 1px;
+  
+}
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 30px; 
+}
+
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 50px 0;
+  padding-top: 100px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color:rgb(190, 114, 42);
+  margin-right: 10px;
+}
+
+
+.facebook {
+  background-color: rgb(190, 114, 42);
+  margin-right: 10px;
+}
+.twitter {
+  background-color: rgb(190, 114, 42);
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+  border-radius: 20px;
+  width: 259px;
+  height: 194px;
+  transition:transform 0.25s ease;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+.lesson-icon:hover {
+  transition: all 0.6s;
+  -webkit-transform:scale(1.15);
+  transform:scale(1.15);
+  z-index: 10;
+  cursor: pointer;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
+}
+
+.heading1 p {
+  font-weight: normal;
+  opacity: 0.8;
+  width: 900px;
+  text-align: center;
+  padding-left: 250px;
+  letter-spacing: 1px;
+}
+.message-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #24170b;
+  color:white;
+}
+
+.message-wrapper h1 {
+  font-weight: normal;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+}
+.heading1 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #ffffff;
+
+}
+.heading1 h1{
+  margin-top: 1px;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #c78917;
+  cursor: pointer;
+  box-shadow: 0 7px #582c02;
+}
+.fb{
+  background-color: #3b5998;
+  margin-right: 25px;
+}
+.wa{
+  background-color: #4fce5d;
+  margin-right: 25px;
+}
+.ig{
+  background-color: #dd2a7b;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.btn2 {
+  padding: 12px 10px;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.btn2:hover{
+  opacity: 1;
+}
+
+.text {
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #E2C275;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #24170b;
+  font-family: cambria;
+  letter-spacing: 4px;
+}
