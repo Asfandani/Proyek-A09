@@ -19,14 +19,14 @@ a {
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgb(128, 75, 14);
+  height: 75px;
+  width: 100%; 
   position :fixed;
+  background-color: rgba(0, 0, 0, 0.37);
   top: 0;
   z-index: 10;
 }
@@ -39,8 +39,8 @@ header {
 
 .txtlogo {
   float: left;
-  color: white;
-  padding-top: 10px;
+  color: rgb(163, 27, 27);
+  padding-top: 5px;
   padding-left: 5px;
   cursor: pointer;
   font-family: verdana;
@@ -58,7 +58,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -76,14 +76,14 @@ header {
 }
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://i.postimg.cc/gcTgz4cL/photo-2021-12-03-08-23-32.jpg);
+  background-image: url(https://i.ibb.co/FmXkDK4/Picsart-22-02-11-14-25-42-068.jpg);
   background-size: cover;
-  color: whitesmoke;
-  text-align: center; 
+  color: #ffffff;
+  text-align: center;
+  filter: brightness(50%);
 }
 
-.top-wrapper p {
-  opacity: 0.8;
+.top-wrapper p { 
   padding-bottom: 1px;
   
 }
@@ -92,10 +92,10 @@ header {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  font-family: sans-serif;
 }
 
-.top-wrapper h2 {
-  opacity: 0.8;
+.top-wrapper h2 { 
   font-size: 30px;
   letter-spacing: 3px;
   margin-bottom: 30px; 
@@ -113,17 +113,17 @@ header {
 }
 
 .signup {
-  background-color:rgb(190, 114, 42);
+  background-color:rgb(233, 231, 230);
   margin-right: 10px;
 }
 
 
 .facebook {
-  background-color: rgb(190, 114, 42);
+  background-color:rgb(233, 231, 230);
   margin-right: 10px;
 }
 .twitter {
-  background-color: rgb(190, 114, 42);
+  background-color:rgb(233, 231, 230);
 }
 
 .btn {
@@ -243,7 +243,6 @@ span.menu-icon {
   display: none;
 }
 
-}
 .heading1 {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -304,7 +303,7 @@ footer {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 40px;
-  background-color: #24170b;
-  font-family: cambria;
+  background-color: #4e1912;
+  font-family: Lucida Sans;
   letter-spacing: 4px;
 }
